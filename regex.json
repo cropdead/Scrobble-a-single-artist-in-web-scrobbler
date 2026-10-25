@@ -1,0 +1,16 @@
+[
+  {
+    "search": {
+      "artist": "^(.*?)\\s*(?:[,&]|\\b(?:ft\\.?|feat\\.?|and|x|\\+)\\b).*",
+      "track": null,
+      "album": null,
+      "albumArtist": null
+    },
+    "replace": {
+      "artist": "$1",
+      "track": null,
+      "album": null,
+      "albumArtist": null
+    }
+  }
+]
